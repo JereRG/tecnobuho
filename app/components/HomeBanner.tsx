@@ -15,6 +15,7 @@ const HomeBanner = () => {
                     fill
                     alt="Banner Image"
                     className="object-contain"
+                    priority={false}
                     />
                 </div>
             </div>    

@@ -14,9 +14,7 @@ const ProductCard: React.FC<ProductCardProps> = ({data}) => {
 
     const router = useRouter();
     
-    const productRating = data.reviews.reduce((acc: number, item: any) => item.rating + acc, 0) / data.reviews.length
-
-    console.log(productRating);
+    const productRating = data.reviews.reduce((acc: number, item: any) => item.rating + acc, 0) / data.reviews.length;
 
     return ( 
         <div 
